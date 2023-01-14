@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane style="-fx-background-color: #EBDCB2;" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.application.Controller">
+   <children>
+      <Button fx:id="choosebutton" layoutX="20.0" layoutY="60.0"  mnemonicParsing="false" onAction="#actionButton" prefHeight="36.0" prefWidth="560.0" style="-fx-background-color: #662E1C; -fx-text-fill: #EBDCB2; " text="Choose file">
+         <font>
+            <Font name="Lucida Console" size="20.0" />
+         </font>
+      </Button>
+      <AnchorPane layoutX="-2.0" layoutY="355.0" prefHeight="49.0" prefWidth="608.0" style="-fx-background-color: #AF4425;">
+         <children>
+            <Label fx:id="fileLabel" style="-fx-text-fill: #EBDCB2; -fx-font-size: 18px; -fx-font-family: monospace; -fx-font-weight: bold;" layoutX="20.0" layoutY="-4.0" prefHeight="55.0" prefWidth="547.0" text="File: " textFill="#01000c" />
+            <Button style="-fx-background-color: #EBDCB2; -fx-text-fill: #662E1C; -fx-font-weight: bold; -fx-font-family: monospace; -fx-font-size: 16px;" layoutX="452.0" layoutY="8.0" mnemonicParsing="false" onAction="#actionConvert" prefHeight="28.0" prefWidth="128.0" text="Convert" />
+         </children>
+      </AnchorPane>
+
+      <Button style="-fx-background-color: #C9A66B; -fx-text-fill: #662E1C; -fx-font-size: 18px; -fx-font-weight: bold; -fx-font-family: monospace;" layoutX="20.0" layoutY="140.0" mnemonicParsing="false" onAction="#actionCompress" prefHeight="30.0" prefWidth="160.0" text="Compress" />
+      <Button style="-fx-background-color: #C9A66B; -fx-text-fill: #662E1C; -fx-font-size: 18px; -fx-font-weight: bold; -fx-font-family: monospace; " layoutX="200.0" layoutY="140.0" mnemonicParsing="false" onAction="#actionDecompress" prefHeight="30.0" prefWidth="160.0" text="Decompress" />
+      <Button style="-fx-background-color: #C9A66B; -fx-text-fill: #662E1C; -fx-font-size: 18px; -fx-font-weight: bold; -fx-font-family: monospace;" layoutX="20.0" layoutY="190.0" mnemonicParsing="false" onAction="#actionEncode" prefHeight="30.0" prefWidth="160.0" text="Encode" />
+      <Button style="-fx-background-color: #C9A66B; -fx-text-fill: #662E1C; -fx-font-size: 18px; -fx-font-weight: bold; -fx-font-family: monospace;" layoutX="200.0" layoutY="190.0" mnemonicParsing="false" onAction="#actionDecode" prefHeight="30.0" prefWidth="160.0" text="Decode" />
+      <Button style="-fx-background-color: #C9A66B; -fx-text-fill: #662E1C; -fx-font-size: 18px; -fx-font-weight: bold; -fx-font-family: monospace;" layoutX="20.0" layoutY="240.0" mnemonicParsing="false" onAction="#actionZip" prefHeight="30.0" prefWidth="160.0" text="Zip" />
+      <Button style="-fx-background-color: #C9A66B; -fx-text-fill: #662E1C; -fx-font-size: 18px; -fx-font-weight: bold; -fx-font-family: monospace;" layoutX="200.0" layoutY="240.0" mnemonicParsing="false" onAction="#actionUnzip" prefHeight="30.0" prefWidth="160.0" text="Unzip" />
+      <TextArea fx:id="textArea" editable="false" layoutX="376.0" style="-fx-background-color: #C9A66B; -fx-font-weight: bold;" layoutY="138.0" prefHeight="138.0" prefWidth="200.0" />
+      <Button style="-fx-background-color: #C9A66B; -fx-text-fill: #EBDCB2; -fx-font-size: 14px; -fx-font-weight: bold; -fx-font-family: monospace;" layoutX="375.0" layoutY="290.0" mnemonicParsing="false" onAction="#actionClear" prefHeight="15.0" prefWidth="200.0" text="CLEAR" />
+   </children>
+</AnchorPane>
