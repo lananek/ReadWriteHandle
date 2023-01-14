@@ -2,7 +2,7 @@ package test;
 
 import org.junit.Assert;
 import org.junit.Test;
-import com.company.ExpressionParser;
+import com.company.ExpressionCalculation;
 import com.company.Calculation;
 
 public class calcTest {
