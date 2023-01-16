@@ -1,5 +1,7 @@
 
-<img src="https://user-images.githubusercontent.com/116422832/212487834-5b6b055d-83ef-46db-8b3f-4db1fa89fd8f.png" height="400"> 
+<img src="https://user-images.githubusercontent.com/116422832/212575129-8e6149c7-8c1a-48f7-9b7f-24bf389e2155.png" height="400"> 
+
+
 
 # Сквозная задача
 Необходимо реализовать консольное приложение, которое:
